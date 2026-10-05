@@ -25,14 +25,14 @@ specrift catches this at the pull request, before it ships.
 The rules decide what's broken. The AI only explains it.
 
 ## Example (planned)
-’’’
+```
 $ specrift diff main feature-branch
 
 ✗ BREAKING  GET /weather/{city}
   Response field `temp` was removed.
   Clients reading `temp` will receive undefined.
   Migration: read `temperature` instead (added in this change).
-’’’
+```
 ## Roadmap
 
 - [ ] Load and validate OpenAPI specs

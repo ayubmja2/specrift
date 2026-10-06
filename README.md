@@ -35,7 +35,7 @@ $ specrift diff main feature-branch
 ```
 ## Roadmap
 
-- [ ] Load and validate OpenAPI specs
+- [x] Load and validate OpenAPI specs
 - [ ] Resolve `$ref` pointers (including circular references)
 - [ ] Core breaking-change rules with full test coverage
 - [ ] CLI with terminal, JSON, and Markdown output
